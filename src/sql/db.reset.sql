@@ -5,11 +5,11 @@ USE `time`;
 DROP TABLE IF EXISTS `hellotime`;
 CREATE TABLE IF NOT EXISTS `hellotime` (
 `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-`time` VARCHAR(128) NULL) ENGINE = InnoDB;
+`timeline` VARCHAR(128) NULL) ENGINE = InnoDB;
 
 INSERT INTO
 hellotime (
-time
+timeline
  )
 VALUES
 (current_time());
